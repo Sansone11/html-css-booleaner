@@ -1,28 +1,30 @@
-
+/* reset di pagina */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* immagine di sfondo superiore */
 .container {
     display:inline-block;
     background-image: url(../img/pattern.png);
     background-size: cover;
     width: 100%;
     background-position: center;
-    height: 70px;
+    height: 150px;
     background-color:#2a79c4ef;
-    padding-top: 30px;
+    padding-top: 20px;
 
 }
+/* logo */
 #logo-container{
     display:inline-block;
     background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height: 50px;
-    width: 100px;
+    height: 150px;
+    width: 250px;
     
 }
 .immagine-main{
@@ -32,22 +34,62 @@
 #booleaners{
     color:rgb(0, 102, 255);
 }
-
+/* sottolineature */
 .fluo{
     background-color: gold;
 
 }
+/* tabella */
 #table-size tr{
-display: block;
-border: 1px solid black;
-border-collapse: collapse;
-width: 100%;
+    table-layout: fixed;
+    display: block;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
 }
 #table-head{
     display: inline-block;
     background-color: aqua;
     width:100%;
+    height: 15px;
 }
 .size{
     display: inline-block;
+}
+th{
+    width: 5%;
+    text-align: justify;
+    
+}
+tr{
+    display:block;
+    height: 50px;
+}
+/* caratteristiche del footer */
+h2{
+    color: grey;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.footer-box{
+    
+    display:block;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+}
+ /*immagini footer  */
+#box1{
+    background-image: url(../img/monitor.jpg);
+    margin-bottom: 20px;
+}
+#box2{
+    background-image: url(../img/graph.jpg);
+}
+.style{
+    font-size: 20px; 
+    font-weight: 20px;
+    color: aliceblue;   
 }
