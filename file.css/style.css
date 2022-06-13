@@ -5,18 +5,49 @@
     box-sizing: border-box;
 }
 .container {
-    display-inline:block;
+    display:inline-block;
     background-image: url(../img/pattern.png);
     background-size: cover;
-    box-sizing: content-box;
+    width: 100%;
     background-position: center;
-    height: 200px;
+    height: 70px;
+    background-color:#2a79c4ef;
+    padding-top: 30px;
+
 }
 #logo-container{
-    display: block;
+    display:inline-block;
     background-image: url(../img/logo.svg);
-    height: 100px;
-    weight: 200px;
-    border: solid;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50px;
+    width: 100px;
+    
+}
+.immagine-main{
+    display:inline-block;
+    
+}
+#booleaners{
+    color:rgb(0, 102, 255);
+}
+
+.fluo{
+    background-color: gold;
+
+}
+#table-size tr{
+display: block;
+border: 1px solid black;
+border-collapse: collapse;
+width: 100%;
+}
+#table-head{
+    display: inline-block;
+    background-color: aqua;
+    width:100%;
+}
+.size{
+    display: inline-block;
 }
