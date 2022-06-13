@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -5,15 +6,15 @@
 }
 .container {
     display-inline:block;
-    background-image: url(img/pattern.png);
+    background-image: url(file.css/style.css/img/pattern.png);
     background-size: cover;
     box-sizing: content-box;
     background-position: center;
     height: 200px;
-}
+}S
 #logo-container{
     display: block;
-    background-image: url(img/logo.svg);
+    background-image: url(file.css/style.css/img/logo.svg);
     height: 100px;
     weight: 200px;
     border: solid;
