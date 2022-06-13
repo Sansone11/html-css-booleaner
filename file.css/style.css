@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display-inline:block;
+    background-size: cover;
+    height: 200px;
+}
+#logo-container{
+    display: block;
+    height: 100px;
+    weight: 200;
+    border: solid;
+    background-size: cover;
+}
